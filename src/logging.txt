@@ -1,1 +1,6 @@
 
+2024-01-29 Customer is already existing
+2024-01-29 Invalid order. Negative amount of product
+2024-01-29 Invalid order!
+2024-01-29 Invalid order. Not enough product into the storage
+2024-01-29 Invalid order!

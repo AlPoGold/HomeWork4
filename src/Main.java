@@ -13,12 +13,14 @@ public class Main {
         shop.addCustomer(cust1);
         shop.addCustomer(cust2);
         shop.addCustomer(cust3);
-        shop.addCustomer(cust4);//is existing in cust1
+        shop.addCustomer(cust4);//is existing in cust1 error
         shop.addCustomer(cust5);
 
         Product shoe = new Product("shoes Gucci", 100);
         Product jacket = new Product("jacket Tom Ford", 20);
         Product costume = new Product("costume Valentino", 5);
+
+
 
         shop.addProduct(shoe);
         shop.addProduct(jacket);
@@ -28,8 +30,11 @@ public class Main {
 
         cust1.makeOrder(shop, "shoes Gucci", 10);
         cust2.makeOrder(shop, "jacket Tom Ford", 10);
-        cust2.makeOrder(shop, "jacket Tom Ford", -10);
-        cust3.makeOrder(shop, "costume Valentino", 100);
+        cust2.makeOrder(shop, "jacket Tom Ford", -10);//negative amount error
+        cust3.makeOrder(shop, "costume Valentino", 100);//lack at storage error
+
+        Product costume1 = new Product("costume Valentino", 10);
+        shop.addProduct(costume1);//add existing product
 
         System.out.println(shop);
         shop.showCountOrders();

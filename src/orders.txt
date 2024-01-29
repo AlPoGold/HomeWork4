@@ -1,0 +1,2 @@
+2024-01-29 Order{customer=Customer{firstName: Ivan, lastName: Ivanov, gender: male, phoneNumber: +78888899900, address: Moscow, str.Tverskaya}, product=Product{name: shoes Gucci, quantity: 0}, amount=10}
+2024-01-29 Order{customer=Customer{firstName: Vasiliy, lastName: Ivanov, gender: male, phoneNumber: +9900, address: Moscow, str.Popova}, product=Product{name: jacket Tom Ford, quantity: 0}, amount=10}

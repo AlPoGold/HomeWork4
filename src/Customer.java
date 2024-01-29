@@ -3,7 +3,6 @@ import CustomExceptions.WrongOrderException;
 import java.util.Objects;
 
 public class Customer {
-    public final String WRONG_ORDER = "Wrong order. Non-existing product into the shop";
     public final String INVALID_ORDER = "Invalid order!";
 
     String firstName;
